@@ -25,9 +25,4 @@ I bought this RC Car based on the Tesla Cybertruck (made by Mattel).  I initiall
 #6
 ![IMG_4722](https://user-images.githubusercontent.com/42262966/152452645-172df1b6-2b7f-4a1a-a148-f8b4d8a07e6a.jpg)
 #7
-![IMG_4748](https://user-images.githubusercontent.com/42262966/152452650-2c7e2d62-b219-479e-9faa-ebe1e7740474.jpg)
-#8
-![IMG_4719](https://user-images.githubusercontent.com/42262966/152452653-b9cb669a-0eb6-4fb8-9c61-416683a81ea1.jpg)
-#9
-![IMG_4720](https://user-images.githubusercontent.com/42262966/152452654-d2ccdb5a-8478-40ab-99dd-b3096390d906.jpg)
-#10
+
