@@ -8,9 +8,8 @@ This idea evolved in an effort to work with many different software/hardware sys
 I bought this RC Car based on the Tesla Cybertruck (made by Mattel).  I initially only wanted to take it apart to see if I could figure out why the connection between the truck and the provided controller was so unreliable. THe truck was extremely jerky and would stop responding after 3 minutes of that. After a reset, it would repeat this behavior.
 
 
-
+# 1 The original control board
 ![IMG_4718](https://user-images.githubusercontent.com/42262966/152452452-f6a1cb17-77a1-4e28-ae72-3f210598feb3.jpg)
-#1 Annotate this photo of the original control board.
 
 ![IMG_4723](https://user-images.githubusercontent.com/42262966/152452454-c491ef7a-51a6-4633-b3cc-f57851b60763.jpg)
 #2 Zoomed out photo of the original RC car before any changes were made. 
