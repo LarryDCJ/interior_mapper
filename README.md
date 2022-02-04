@@ -20,21 +20,22 @@ The RC car is based on the Tesla Cybertruck made by Mattel.  I initially only wa
 # 4 Routing
 ![IMG_4721](https://user-images.githubusercontent.com/42262966/152452641-dc9d7e2c-6f82-406e-8ea5-0dfa06298984.jpg)
 
-Arduino Mega 2560 (add link)
-Raspberry Pi 4B+ (add link)
-Original Battery
-Bench Power Supply for testing (specify, add link)
-New Battery/Power System
-L298N https://create.arduino.cc/projecthub/ryanchan/how-to-use-the-l298n-motor-driver-b124c5 (embed link)
-Thumbstick (specify, add link)
-Original Motor
-New Motor
-Original Servo
-New Servo
-YPLidar https://www.ydlidar.com/products/view/1.html
-Soldering Iron
-3D Printer
-Tires
+#Arduino Mega 2560 (add link)
+#Raspberry Pi 4B+ (add link)
+#Original Battery
+#Bench Power Supply for testing (specify, add link)
+#New Battery/Power System
+#L298N https://create.arduino.cc/projecthub/ryanchan/how-to-use-the-l298n-motor-driver-b124c5 (embed link)
+#Jumper Wires
+#Thumbstick (specify, add link)
+#Original Motor
+#New Motor
+#Original Servo
+#New Servo
+#YPLidar https://www.ydlidar.com/products/view/1.html
+#Soldering Iron
+#3D Printer
+#Tires
 
 Detail Measurements of the body to ensure everything will fit after prototyping
 This might drive the decision of a larger battery or motors or exterior.
