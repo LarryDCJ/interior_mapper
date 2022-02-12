@@ -65,7 +65,7 @@ void loop() {
   }
   
 ///////////////////////////////////////////////////
-  if1 (yValue < FRWD_THRESHOLD) {
+  if (yValue < FRWD_THRESHOLD) {
     Serial.println("GO FORWARD");
     digitalWrite(reverse, LOW); 
     digitalWrite(acceler, HIGH);
