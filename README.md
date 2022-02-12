@@ -43,6 +43,13 @@ Stronger Lidar?
 Weight/Power Ratio...what makes sense to maintain?
 Learning how to design in AutoCAD would be a nice roadblock to have.
 
+C++
+Scala
+Go
+Javascript // React+Tailwind
+PostGres
+AWS - visualization?
+
 Virtually recreate a mapped room
 
 Track Total/Current Cost (automatically)
