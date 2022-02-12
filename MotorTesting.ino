@@ -4,7 +4,7 @@ int reverse = 3;
 int acceler = 2;
   
 int leftTurn = 5;
-int rigtTurn = 4;
+int rghtTurn = 4;
 
 #define VRX_PIN A0
 #define VRY_PIN A1
@@ -36,7 +36,7 @@ void setup() {
   pinMode(acceler, OUTPUT);
   pinMode(reverse, OUTPUT);
   pinMode(leftTurn, OUTPUT);
-  pinMode(rigtTurn, OUTPUT);
+  pinMode(rghtTurn, OUTPUT);
 }
 
 void loop() {
@@ -46,23 +46,30 @@ void loop() {
   yValue = analogRead(VRY_PIN);
 
 ///////////////////////////////////////////////////
-  if (xValue < LEFT_THRESHOLD) {
-    Serial.println("TURN LEFT");
-    digitalWrite(rigtTurn, LOW);
-    digitalWrite(leftTurn, HIGH);
-  }
-
-  if (xValue > RIGT_THRESHOLD) {
-    Serial.println("TURN RIGHT");
-    digitalWrite(leftTurn, LOW);
-    digitalWrite(rigtTurn, HIGH);
-  }
-
-  if (xValue == 507) {
+  while true {
+    
+    if (xValue == 507) {
     Serial.println("CENTERED");
     digitalWrite(leftTurn, LOW);
-    digitalWrite(rigtTurn, LOW);
+    digitalWrite(rghtTurn, LOW);
+    }
+    
+    if (xValue < LEFT_THRESHOLD) {
+      Serial.println("TURN LEFT");
+      digitalWrite(rghtTurn, LOW);
+      digitalWrite(leftTurn, HIGH);
+    }
+
+    if (xValue > RGHT_THRESHOLD) {
+      Serial.println("TURN RIGHT");
+      digitalWrite(leftTurn, LOW);
+      digitalWrite(rghtTurn, HIGH);
+    }
+  
   }
+  
+
+
   
 ///////////////////////////////////////////////////
   if (yValue < FRWD_THRESHOLD) {
