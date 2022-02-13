@@ -1,3 +1,4 @@
+package InteriorMap
 // Me messing around with the electrical ratings of various componenets to easily answer questions
 // for myself while learning about circuit programming.
 // Watts is the unit of measure for power
